@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Főoldal</title>
+</head>
+<body>
+    <div id="fejlec"></div>
+    <table id="orarend">
+        <tr>
+            <td style="width: 80px; height: 60px;"></td>
+            <td style="width: 200px;" colspan="2">Hé</td>
+            <td style="width: 200px;" colspan="20">Ke</td>
+            <td style="width: 200px;" colspan="20">Sz</td>
+            <td style="width: 200px;" colspan="20">Cs</td>
+            <td style="width: 200px;" colspan="4">Pé</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td colspan="2">magy</td>
+            <td colspan="20">mat</td>
+            <td colspan="20">magy</td>
+            <td colspan="20">magy</td>
+            <td rowspan="2">háll</td>
+            <td rowspan="2">abszl</td>
+            <td rowspan="2">háll</td>
+            <td>abszl</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td colspan="2">fiz</td>
+            <td colspan="20">tesi</td>
+            <td colspan="10">iktproll</td>
+            <td colspan="10">iktproll</td>
+            <td colspan="5" rowspan="2">háll</td>
+            <td colspan="5" rowspan="2">aszaf</td>
+            <td colspan="5" rowspan="2">háll</td>
+            <td colspan="5" rowspan="2">aszaf</td>
+            <td>aszaf</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td colspan="2">töri</td>
+            <td colspan="10">szan</td>
+            <td colspan="10">iktproll</td>
+            <td colspan="20">fiz</td>
+            <td colspan="4">tesi</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>abszl</td>
+            <td>webprog</td>
+            <td colspan="5" rowspan="2">háll</td>
+            <td colspan="5" rowspan="2">aszaf</td>
+            <td colspan="5" rowspan="2">háll</td>
+            <td colspan="5" rowspan="2">abszl</td>
+            <td colspan="2">An</td>
+            <td colspan="2">An</td>
+            <td colspan="2">An</td>
+            <td colspan="2">An</td>
+            <td colspan="2">An</td>
+            <td colspan="2">An</td>
+            <td colspan="2">An</td>
+            <td colspan="2">An</td>
+            <td colspan="2">né</td>
+            <td colspan="2">né</td>
+            <td colspan="2">An</td>
+            <td colspan="2">An</td>
+            <td colspan="2">An</td>
+            <td colspan="2">An</td>
+            <td colspan="2">An</td>
+            <td colspan="2">An</td>
+            <td colspan="2">An</td>
+            <td colspan="2">An</td>
+            <td colspan="2">né</td>
+            <td colspan="2">né</td>
+            <td colspan="4">mat</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>iktproll</td>
+            <td>szan</td>
+            <td colspan="20">töri</td>
+            <td colspan="10">iktproll</td>
+            <td colspan="10">iktproll</td>
+            <td colspan="4">fiz</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td colspan="2">tesi</td>
+            <td colspan="2">An</td>
+            <td colspan="2">An</td>
+            <td colspan="2">An</td>
+            <td colspan="2">An</td>
+            <td colspan="2">An</td>
+            <td colspan="2">An</td>
+            <td colspan="2">An</td>
+            <td colspan="2">An</td>
+            <td colspan="2">né</td>
+            <td colspan="2">né</td>
+            <td colspan="10">abszl</td>
+            <td colspan="10">webprog</td>
+            <td colspan="10">szan</td>
+            <td colspan="10">szan</td>
+            <td colspan="4">magy</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td colspan="2">of</td>
+            <td colspan="10">abszl</td>
+            <td colspan="10">webprog</td>
+            <td colspan="20"></td>
+            <td colspan="20">mat</td>
+            <td colspan="4">töri</td>
+        </tr>
+    </table>
+    <script>
+        fetch('fejlec.html')  // A beilleszteni kívánt HTML fájl URL-je
+          .then(response => response.text())  // A válasz szöveggé alakítása
+          .then(html => {
+            document.getElementById('fejlec').innerHTML = html;  // Beillesztés a fejlec div-be
+          })
+          .catch(error => console.error('Hiba a fetch során:', error));
+      </script>
+</body>
+</html>

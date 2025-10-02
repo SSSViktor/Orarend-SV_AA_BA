@@ -1,0 +1,10 @@
+#orarend td{
+    border: 1px solid black;
+    height: 50px;
+}
+#orarend{
+    border-collapse: collapse;
+}
+header #aloldal, header #aloldalNev{
+    display: none;
+}
