@@ -1,10 +1,16 @@
 #orarend td{
     border: 1px solid black;
     height: 50px;
+    font-size: 80%;
 }
+
 #orarend{
     border-collapse: collapse;
 }
 header #aloldal, header #aloldalNev{
     display: none;
+}
+#orarend td[data-ora]:hover{
+    cursor: pointer;
+    background-color: rgb(rgb(185, 185, 185));
 }

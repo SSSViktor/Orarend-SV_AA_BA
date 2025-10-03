@@ -1,0 +1,34 @@
+[
+    {
+        "1.ora": "8:00-8:45",
+        "2.ora": "8:55-9:40",
+        "3.ora": "9:50-10:35",
+        "4.ora": "10:50-11:35",
+        "5.ora": "11:45-12:30",
+        "6.ora": "12:40-13:25",
+        "7.ora": "13:30-14:15"
+    },
+    {
+        "id": "matek",
+        "nev": "Matematika",
+        "tanar": "Huzsvay Edit",
+        "fejlecNev": "Matematika",
+        "tananyag": {
+            "cim": "11. osztályos matematika - rövid összefoglaló",
+            "tartalom": [
+                { "cim": "Függvények és sorozatok", "tartalom": ["Számtani és mértani sorozat","Nevezetes függvények: másodfokú, exponenciális, logaritmus, trigonometrikus","Grafikonok és transzformációk"] },
+                { "cim": "Analízis alapjai", "tartalom": ["Határérték és folytonosság","Deriválás: érintő, meredekség, szélsőérték","Egyszerű optimalizálási feladatok"] },
+                { "cim": "Geometria és trigonometria", "tartalom": ["Kör és érintők, szelő","Háromszögek nevezetes vonalai","Trigonometrikus azonosságok és egyenletek","Vektorok a síkban"] },
+                { "cim": "Kombinatorika és valószínűség", "tartalom": ["Permutáció, variáció, kombináció","Binomiális tétel","Alap valószínűségszámítás"] },
+                { "cim": "Algebra és koordinátageometria", "tartalom": ["Egyenletek: másodfokú, logaritmikus, trigonometrikus","Egyenletrendszerek","Kör és egyenes egyenlete a síkban"] }
+                ]
+            }
+    },
+    {
+        "id": "magyar",
+        "nev": "Magyar nyelv és irodalom",
+        "tanar": "Szerencsés Tímea",
+        "fejlecNev": "Magyar nyelv és irodalom",
+        "tananyag": ""
+    }
+]
