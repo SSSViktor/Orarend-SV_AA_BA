@@ -13,7 +13,8 @@ window.addEventListener('load', () => {
             const sor = this.closest('tr'); // az adott td sorát megkeressük
             const oraSzam = sor.querySelector('td:first-child').innerText; // első cella tartalma (1,2,3...)
 
-            window.open(`ora.html?ora=${this.dataset.ora}&oraSzam=${oraSzam}`,'_blank');
+            window.top.location.href = `ora.html?ora=${this.dataset.ora}&oraSzam=${oraSzam}`;
+            //window.open(`ora.html?ora=${this.dataset.ora}&oraSzam=${oraSzam}`,'_blank');
         });
     });
 });

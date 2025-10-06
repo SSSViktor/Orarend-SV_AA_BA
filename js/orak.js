@@ -1,3 +1,9 @@
+fetch('../fejlec.html')  // A beilleszteni kívánt HTML fájl URL-je
+          .then(response => response.text())  // A válasz szöveggé alakítása
+          .then(html => {
+            document.getElementById('fejlec').innerHTML = html;  // Beillesztés a fejlec div-be
+          })
+          .catch(error => console.error('Hiba a fetch során:', error));
 async function oraBetolt() {
     const urlOra = new URLSearchParams(window.location.search);
     const oraNev = urlOra.get("ora"); // pl. ?ora=matek
@@ -7,7 +13,9 @@ async function oraBetolt() {
     const ora = orak.find(ora => ora.id === oraNev);
 
     if (!ora) {
-        document.getElementById("tantargyNev").innerText = "Óra nem található";
+        document.getElementById("tantargyNev").innerText = oraNev;
+        document.getElementById("aloldalNev").innerText = "ora_nem_talalhato";
+        document.title = "ora_nem_talalhato";
         return;
     }   
     document.getElementById("tantargyNev").innerText = ora.nev;
