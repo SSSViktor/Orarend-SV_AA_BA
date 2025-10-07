@@ -2,21 +2,22 @@
     text-align: center;
     color: white;
     position: absolute;
-    left: 45%;
+    right: 1%;
+    top: 15px;
 }
 header{
-    background-color: #4891FF;
+    background-color: #267DFF;
     color: white;
     font-size: 200%;
+    height: 70px;
 }
 #fooldal{
+    position: absolute;
     text-decoration: none;
     color: white;
     margin-left: 10px;
+    top: 15px;
 }
 #fooldal:active{
     color: white;
-}
-#fejlec{
-    position: sticky;
 }

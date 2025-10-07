@@ -6,12 +6,14 @@
 
 #orarend{
     border-collapse: collapse;
-    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 170px;
     background-color: lightgray;
     font-weight: bolder;
     text-align: center;
     border: 3px solid black;
-    box-shadow: 10px 5px 5px gray;
+    box-shadow: 10px 5px 5px white;
 }
 header #aloldal, header #aloldalNev{
     display: none;
@@ -31,19 +33,28 @@ body, html{
     width: 20%;
     padding: 15px;
 }
-#leirasKepContainer {
-    display: flex;
-    align-items: flex-start; /* vagy center, ha középre akarod igazítani függőlegesen */
+#leiras {
     gap: 20px; /* térköz a két elem között */
-    margin: 1%;
+    margin-left: 10%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
 }
 
 #osztalyKep {
     height: auto;
-    border-radius: 15px;
+    margin-top: 3%;
+    margin-left: 10%;
     margin-right: 10%;
-    margin-left: auto;
-    width: 40%;
+    width: 80%;
+    border: 3px solid white;
+}
+body {
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
 }
 @media screen and (max-width: 768px) {
     #leirasKepContainer {
