@@ -1,11 +1,37 @@
 #kep{
     width: 30%;
-    position: fixed;
-    left: 35%;
+    position: absolute;
+    right: 5%;
     top: 40%;
     animation: kep 3s ease-in-out;
 }
 @keyframes kep{
-    0% {left: 100%;}
-    100% {left: 35%;}
+    0% {right: -40%;}
+    100% {right: 5%;}
+}
+body, html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+#tantargyNev{
+    background-color: #8AD3F8;
+    margin: 2%;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+}
+#tanar{
+    background-color: #569FFF;
+    width: 60.5%;
+    margin-left: 2%;
+    padding: 10px;
+    border-radius: 15px;
+}
+#tartalom{
+    background-color: #D9D9D9;
+    margin: 2%;
+    padding: 15px;
+    border-radius: 15px;
+    width: 60%;
 }

@@ -6,6 +6,12 @@
 
 #orarend{
     border-collapse: collapse;
+    margin: 5%;
+    background-color: lightgray;
+    font-weight: bolder;
+    text-align: center;
+    border: 3px solid black;
+    box-shadow: 10px 5px 5px gray;
 }
 header #aloldal, header #aloldalNev{
     display: none;
@@ -13,4 +19,29 @@ header #aloldal, header #aloldalNev{
 #orarend td[data-ora]:hover{
     cursor: pointer;
     background-color: rgb(rgb(185, 185, 185));
+}
+body, html{
+    padding: 0;
+    margin: 0;
+}
+#leiras{
+    background-color: #8AD3F8;
+    margin: 1%;
+    border-radius: 15px;
+    width: 20%;
+    padding: 15px;
+}
+#leirasKepContainer {
+    display: flex;
+    align-items: flex-start; /* vagy center, ha középre akarod igazítani függőlegesen */
+    gap: 20px; /* térköz a két elem között */
+    margin: 1%;
+}
+
+#osztalyKep {
+    height: auto;
+    border-radius: 15px;
+    margin-right: 10%;
+    margin-left: auto;
+    width: 40%;
 }

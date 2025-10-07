@@ -1,4 +1,19 @@
 #osztaly{
     text-align: center;
-    margin-left: 40%;
+    color: white;
+    position: fixed;
+    left: 45%;
+}
+header{
+    background-color: #4891FF;
+    color: white;
+    font-size: 200%;
+}
+#fooldal{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+#fooldal:active{
+    color: white;
 }
