@@ -10,9 +10,10 @@ header{
     color: white;
     font-size: 200%;
     height: 70px;
+    display: flex;
+    align-items: center;
 }
-#fooldal{
-    position: absolute;
+#fooldal{ 
     text-decoration: none;
     color: white;
     margin-left: 10px;
@@ -20,4 +21,16 @@ header{
 }
 #fooldal:active{
     color: white;
+}
+#fejlec{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+#evszam{
+    position: absolute;
+    left: 45%;
+}
+#aloldal{
+    margin-inline: 10px;
 }
