@@ -2,12 +2,18 @@
     width: 30%;
     position: absolute;
     right: 5%;
-    top: 40%;
-    animation: kep 3s ease-in-out;
+    top: 10%;
+    animation: kepBe 3s ease-in-out,
+            kep 10s infinite ease-in-out forwards alternate 3s;     
+}
+@keyframes kepBe{
+    0% {right: -40%;}
+    100% {right: 5%;
+    top: 90%;}
 }
 @keyframes kep{
-    0% {right: -40%;}
-    100% {right: 5%;}
+    0% {top: 90%;}
+    100% {top: 10%;}
 }
 body, html{
     margin: 0;

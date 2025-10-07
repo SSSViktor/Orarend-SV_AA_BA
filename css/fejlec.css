@@ -17,3 +17,6 @@ header{
 #fooldal:active{
     color: white;
 }
+#fejlec{
+    position: sticky;
+}

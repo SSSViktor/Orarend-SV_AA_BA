@@ -1,9 +1,29 @@
-fetch('../fejlec.html')  // A beilleszteni kívánt HTML fájl URL-je
-          .then(response => response.text())  // A válasz szöveggé alakítása
-          .then(html => {
-            document.getElementById('fejlec').innerHTML = html;  // Beillesztés a fejlec div-be
-          })
-          .catch(error => console.error('Hiba a fetch során:', error));
+fetch('fejlec.html')
+  .then(response => response.text())
+  .then(html => {
+      const navbar = document.getElementById('fejlec');
+      navbar.innerHTML = html;
+
+      let fejlec_meret = 72;
+      let lastScrollTop = 0;
+
+      window.addEventListener("scroll", function() {
+          navbar.style.transition = `top ${fejlec_meret/200}s ease-in-out, box-shadow ${fejlec_meret/200}s ease-in-out`;
+          let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+          if (currentScroll > lastScrollTop) {
+              navbar.style.top = -fejlec_meret + "px";
+              navbar.style.boxShadow = currentScroll > fejlec_meret ? "none" : "0 4px 8px rgba(0,0,0,0.2)";
+          } else {
+              navbar.style.top = "0";
+              navbar.style.boxShadow = currentScroll > 0 ? "0 4px 8px rgba(0,0,0,0.2)" : "none";
+          }
+
+          lastScrollTop = currentScroll;
+      });
+  })
+  .catch(error => console.error('Hiba a fetch során:', error));
+
 async function oraBetolt() {
     const urlOra = new URLSearchParams(window.location.search);
     const oraNev = urlOra.get("ora"); // pl. ?ora=matek
