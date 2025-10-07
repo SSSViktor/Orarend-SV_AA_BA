@@ -45,3 +45,20 @@ body, html{
     margin-left: auto;
     width: 40%;
 }
+@media screen and (max-width: 768px) {
+    #leirasKepContainer {
+        flex-direction: column; /* Vízszintes helyett függőleges elrendezés */
+        align-items: center; /* Középre igazítás */
+    }
+    #osztalyKep {
+        width: 80%; /* Szélesség növelése kisebb képernyőn */
+        margin: 0; /* Eltávolítja a margókat */
+    }
+    #leiras {
+        width: 90%; /* Szélesség növelése kisebb képernyőn */
+    }
+    #orarend {
+        font-size: 80%; /* Betűméret csökkentése kisebb képernyőn */
+    }
+    
+}
