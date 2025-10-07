@@ -8,8 +8,7 @@
         "6.ora": "12:40-13:25",
         "7.ora": "13:30-14:15"
     },
-    {
-        "id": "matek",
+    {"id": "matek",
         "nev": "Matematika",
         "tanar": "Huzsvay Edit",
         "fejlecNev": "Matematika",
@@ -25,11 +24,1515 @@
                 ]
             }
     },
-    {
-        "id": "magyar",
+    {"id": "magyar",
         "nev": "Magyar nyelv és irodalom",
         "tanar": "Szerencsés Tímea",
         "fejlecNev": "Magyar nyelv és irodalom",
+        "img": "img/magyar.svg",
+        "tananyag": {
+            "cim": "11. osztályos magyar nyelv és irodalom - rövid összefoglaló",
+            "tartalom": [
+                { "cim": "Nyelvtan – Kommunikáció és stílus", "tartalom": [
+                    "A kommunikáció folyamata és tényezői",
+                    "A nyelvi szintek (hangtan, alaktan, mondattan, jelentéstan) áttekintése",
+                    "A stílusrétegek: hivatalos, publicisztikai, szépirodalmi, tudományos, társalgási",
+                    "A szöveg felépítése, koherencia és kohézió"
+                ]},
+                { "cim": "Nyelvtan – A magyar nyelv története és változásai", "tartalom": [
+                    "A magyar nyelv eredete, finnugor rokonság",
+                    "A nyelvtörténeti korszakok",
+                    "A nyelvújítás és hatása",
+                    "A mai magyar nyelv változásai, nyelvi norma és nyelvváltozatok"
+                ]},
+                { "cim": "Irodalom – A felvilágosodás kora", "tartalom": [
+                    "A klasszicizmus, szentimentalizmus és rokokó jellemzői",
+                    "Magyar irodalom: Bessenyei György, Kazinczy Ferenc, Csokonai Vitéz Mihály",
+                    "A felvilágosodás eszméi, polgári értékrend"
+                ]},
+                { "cim": "Irodalom – A reformkor és romantika", "tartalom": [
+                    "Kölcsey Ferenc, Vörösmarty Mihály életműve",
+                    "Petőfi Sándor: forradalmi költészet, népiesség, szerelmi líra",
+                    "Arany János balladái és epikus művei",
+                    "A romantika jellemzői az európai és magyar irodalomban"
+                ]},
+                { "cim": "Irodalom – Dráma és epika", "tartalom": [
+                    "A dráma műfajai: tragédia, komédia, drámai költemény",
+                    "Shakespeare: Hamlet (vagy más kiemelt mű) elemzése",
+                    "A romantikus regény és elbeszélés jellemzői",
+                    "Az elbeszélő nézőpontok és elbeszélésmódok"
+                ]},
+                { "cim": "Nyelvi kompetenciafejlesztés", "tartalom": [
+                    "Összefüggő szövegalkotás különböző műfajokban (érvelés, esszé, jellemzés, elemzés)",
+                    "Forráskezelés, hivatkozás, idézés szabályai",
+                    "Nyelvhelyesség és helyesírás gyakorlása"
+                ]}
+            ]
+        }
+
+    },
+    {"id": "fizika",
+        "nev": "Fizika",
+        "tanar": "Kollányi Miklós György",
+        "fejlecNev": "Fizika",
+        "img": "img/fizika.svg",
+        "tananyag": {
+    "cim": "11. osztályos fizika - rövid összefoglaló",
+    "tartalom": [
+        { "cim": "Mechanika – Kinematika és dinamika", "tartalom": [
+            "Egyenes vonalú és egyenletesen változó mozgás",
+            "A gyorsulás, sebesség, út-idő összefüggései",
+            "Newton törvényei és az erő fogalma",
+            "Körmozgás, centripetális erő",
+            "Munka, energia, teljesítmény, megmaradási tételek"
+        ]},
+        { "cim": "Mechanika – Merev testek és forgómozgás", "tartalom": [
+            "A nyomaték és egyensúly feltétele",
+            "Forgó mozgás kinematikája és dinamikája",
+            "Tömegközéppont és tehetetlenségi nyomaték",
+            "Energiamegmaradás forgómozgás esetén"
+        ]},
+        { "cim": "Rezgések és hullámok", "tartalom": [
+            "Egyszerű harmonikus rezgőmozgás jellemzői (amplitúdó, periódusidő, frekvencia)",
+            "Rezgőmozgás energiája",
+            "Hullámmozgás, hullámhossz, terjedési sebesség",
+            "Hullámok interferenciája, állóhullám",
+            "Hanghullámok tulajdonságai"
+        ]},
+        { "cim": "Hőtan – A gázok és a hő jelenségei", "tartalom": [
+            "A hőmérséklet és hőtágulás",
+            "A belső energia és hőközlés",
+            "A gázok állapotjelzői: nyomás, térfogat, hőmérséklet",
+            "Az ideális gáz állapotegyenlete",
+            "A termodinamika I. főtétele és hőerőgépek működése"
+        ]},
+        { "cim": "Elektrosztatika", "tartalom": [
+            "Töltés, Coulomb-törvény",
+            "Elektromos mező és térerősség",
+            "Potenciál és feszültség",
+            "Kondenzátor és kapacitás",
+            "A kondenzátor energiája"
+        ]},
+        { "cim": "Egyenáram", "tartalom": [
+            "Ohm törvénye és ellenállás",
+            "Sorba és párhuzamos kapcsolás",
+            "Teljesítmény és energia",
+            "Elektromos munka",
+            "Kirchhoff-törvények és egyszerű áramkörök elemzése"
+        ]}
+    ]
+}
+
+    },
+    {"id": "tori",
+        "nev": "Történelem",
+        "tanar": "Pakainé Estók Júlia Gabriella",
+        "fejlecNev": "Történelem",
+        "img": "img/tori.svg",
+        "tananyag": {
+    "cim": "11. osztályos történelem - rövid összefoglaló",
+    "tartalom": [
+        { "cim": "A francia forradalom és Napóleon kora", "tartalom": [
+            "A francia forradalom okai és szakaszai (1789–1799)",
+            "Az Emberi és Polgári Jogok Nyilatkozata",
+            "A jakobinus diktatúra és a Direktórium",
+            "Napóleon hatalomra jutása, reformjai és hódításai",
+            "A napóleoni háborúk és a bécsi kongresszus (1815)"
+        ]},
+        { "cim": "A 19. század első fele – ipari forradalom és társadalmi változások", "tartalom": [
+            "Az ipari forradalom Angliában és elterjedése Európában",
+            "A technikai fejlődés és urbanizáció",
+            "A polgári társadalom kialakulása",
+            "A liberalizmus, nacionalizmus és konzervativizmus eszméi",
+            "A munkásmozgalmak kezdetei"
+        ]},
+        { "cim": "A reformkor Magyarországon", "tartalom": [
+            "A felvilágosodás és reformeszmék hatása Magyarországon",
+            "Széchenyi István és Kossuth Lajos reformprogramjai",
+            "A reformországgyűlések és a politikai küzdelmek",
+            "A nemzeti ébredés, nyelvújítás és kulturális fejlődés"
+        ]},
+        { "cim": "Az 1848–49-es forradalom és szabadságharc", "tartalom": [
+            "A pesti forradalom eseményei, a 12 pont",
+            "Az áprilisi törvények és a független felelős kormány",
+            "A szabadságharc hadjáratai és vezetői",
+            "A világosi fegyverletétel és a megtorlás",
+            "Az 1848-as forradalmak Európában"
+        ]},
+        { "cim": "A kiegyezés és a dualizmus kora (1867–1914)", "tartalom": [
+            "A kiegyezés létrejötte és tartalma",
+            "Az Osztrák–Magyar Monarchia felépítése",
+            "A gazdasági és kulturális fejlődés Magyarországon",
+            "A nemzetiségi kérdés és politikai élet a dualizmus korában",
+            "A századforduló társadalma és modernizációs folyamatai"
+        ]},
+        { "cim": "A 19. század második fele – nemzetállamok kora", "tartalom": [
+            "Az olasz és német egység létrejötte",
+            "A gyarmatosítás és imperializmus",
+            "A polgári államok működése és a politikai pártok kialakulása",
+            "Az Egyesült Államok fejlődése és a polgárháború",
+            "A tudományos és kulturális fejlődés a század végén"
+        ]}
+    ]
+}
+
+    },
+    {"id": "adatbazis_kezeles_ira",
+        "nev": "Adatbázis-kezelés I.",
+        "tanar": "Taskovics Péter",
+        "fejlecNev": "Adatbázis-kezelés ira",
+        "img": "img/info.svg",
+        "tananyag": {
+            "cim": "11. osztályos informatika – Adatbázis-kezelés (Informatika és távközlés ágazat)",
+            "tartalom": [
+                { "cim": "Adatbázis-kezelés alapfogalmai", "tartalom": [
+                    "Adat, információ, adatmodell fogalma",
+                    "Adatbázis, adatbázis-kezelő rendszer (DBMS) szerepe",
+                    "Relációs adatbázis és táblák közötti kapcsolatok",
+                    "Elsődleges kulcs (PRIMARY KEY) és idegen kulcs (FOREIGN KEY)",
+                    "Normalizálás alapjai (1NF, 2NF, 3NF)"
+                ]},
+                { "cim": "Adatbázis-tervezés", "tartalom": [
+                    "Követelmény- és adatelemzés",
+                    "ER (Entity-Relationship) diagram készítése",
+                    "Entitások, attribútumok, kapcsolatok azonosítása",
+                    "Kapcsolatok típusai (1:1, 1:N, N:M)",
+                    "Relációs séma kialakítása"
+                ]},
+                { "cim": "SQL – Strukturált Lekérdező Nyelv", "tartalom": [
+                    "Adatbázisok és táblák létrehozása (CREATE DATABASE, CREATE TABLE)",
+                    "Adatbevitel, módosítás, törlés (INSERT, UPDATE, DELETE)",
+                    "Adatlekérdezés (SELECT, WHERE, ORDER BY, GROUP BY, HAVING)",
+                    "Összesítő függvények: COUNT, SUM, AVG, MIN, MAX",
+                    "Táblák összekapcsolása (JOIN: INNER, LEFT, RIGHT, FULL)"
+                ]},
+                { "cim": "Adatkezelés és karbantartás", "tartalom": [
+                    "Adatbázis biztonság, jogosultságok (GRANT, REVOKE)",
+                    "Adatmentés és visszaállítás",
+                    "Indexek és nézetek (INDEX, VIEW) szerepe",
+                    "Integritási feltételek és megszorítások (NOT NULL, UNIQUE, CHECK)"
+                ]},
+                { "cim": "Gyakorlati adatbázis-kezelés", "tartalom": [
+                    "Adatbázis létrehozása MySQL-ben vagy SQLite-ban",
+                    "Kapcsolatok kialakítása több tábla között",
+                    "Egyszerű alkalmazás fejlesztése SQL-lekérdezésekkel",
+                    "Adatbevitel űrlapon keresztül (pl. Python, PHP vagy Access segítségével)",
+                    "Riportok és lekérdezések készítése valós adatokból"
+                ]},
+                { "cim": "Távközlési és hálózati háttér (kapcsolódó ismeretek)", "tartalom": [
+                    "Hálózati topológiák és protokollok áttekintése",
+                    "IP-címzés és adatátvitel alapjai",
+                    "Kliens–szerver modell és adatkommunikáció",
+                    "Adatbázisok hálózati elérése (pl. MySQL szerver kapcsolódás)",
+                    "Adatbiztonság és adatvédelem az informatikában"
+                ]}
+            ]
+        }
+
+    },
+    {"id": "webprogramozas",
+        "nev": "Webprogramozás",
+        "tanar": "Foki Zoltán",
+        "fejlecNev": "Webprogramozás",
+        "img": "img/info.svg",
+        "tananyag": {
+            "cim": "11. osztályos informatika – Webprogramozás (Informatika és távközlés ágazat)",
+            "tartalom": [
+                { "cim": "A web működése és alapfogalmak", "tartalom": [
+                    "A kliens–szerver modell működése",
+                    "HTTP és HTTPS protokoll alapjai",
+                    "Domainnév, URL, IP-cím, DNS fogalma",
+                    "Webszerver és böngésző szerepe",
+                    "Frontend és backend különbsége"
+                ]},
+                { "cim": "HTML – A weboldalak szerkezete", "tartalom": [
+                    "HTML dokumentum felépítése (doctype, head, body)",
+                    "Szövegformázás, listák, képek, hivatkozások, táblázatok",
+                    "Űrlapok (input, textarea, select, button) és azok elemei",
+                    "Szemantikus elemek (header, nav, main, section, article, footer)",
+                    "Multimédia beágyazása (audio, video, iframe)"
+                ]},
+                { "cim": "CSS – Stíluslapok és reszponzív dizájn", "tartalom": [
+                    "CSS szelektorok és tulajdonságok használata",
+                    "Színek, betűk, háttér, margók, keretek beállítása",
+                    "Rugalmas elrendezések: Flexbox és Grid rendszer",
+                    "Reszponzív webdizájn (media query, mobilnézet)",
+                    "Külső, belső és inline CSS különbsége"
+                ]},
+                { "cim": "JavaScript – Alapok és interaktivitás", "tartalom": [
+                    "Változók, adattípusok, függvények, ciklusok, feltételek",
+                    "DOM (Document Object Model) kezelése",
+                    "Események kezelése (onclick, oninput, onsubmit stb.)",
+                    "Egyszerű űrlapellenőrzések és dinamikus tartalom",
+                    "Adatok tárolása a böngészőben (localStorage, sessionStorage)"
+                ]},
+                { "cim": "Backend alapok (bevezetés)", "tartalom": [
+                    "A szerveroldali programozás szerepe",
+                    "Adatküldés és -fogadás űrlapokból (GET, POST)",
+                    "Egyszerű PHP szkriptek vagy Python Flask példák",
+                    "Adatbázis kapcsolat létrehozása és lekérdezések kezelése",
+                    "Dinamikus weboldalak működési elve"
+                ]},
+                { "cim": "Webfejlesztési környezet és gyakorlat", "tartalom": [
+                    "Kódolási szabványok és fájlszerkezet kialakítása",
+                    "Fejlesztői eszközök: VS Code, böngésző fejlesztői konzol",
+                    "Webprojektek mappastruktúrája (HTML, CSS, JS különválasztása)",
+                    "Egyszerű weboldal készítése – egyéni projekt",
+                    "Publikálás webtárhelyre vagy GitHub Pages-re"
+                ]},
+                { "cim": "Modern webfejlesztés – áttekintés", "tartalom": [
+                    "Bevezetés a keretrendszerekbe (React, Vue, Bootstrap)",
+                    "REST API és JSON fogalma",
+                    "Reszponzív és felhasználóbarát dizájn elvek",
+                    "Webes biztonság alapjai (input-ellenőrzés, HTTPS)",
+                    "Teljes webalkalmazás működésének áttekintése"
+                ]}
+            ]
+        }
+
+    },
+    {"id": "ikt_projektmunka_ira",
+        "nev": "IKT projektmunka",
+        "tanar": "Németh Ildikó",
+        "fejlecNev": "IKT projektmunka ira",
+        "img": "img/info.svg",
+        "tananyag": {
+            "cim": "11. osztályos informatika – IKT projektmunka (Informatika és távközlés ágazat)",
+            "tartalom": [
+                { "cim": "Projektmunka alapjai", "tartalom": [
+                    "A projekt fogalma, célja és jellemzői",
+                    "Projektfázisok: tervezés, megvalósítás, ellenőrzés, lezárás",
+                    "Csoportmunka szerepe az IKT-projektekben",
+                    "Projektmenedzsment alapfogalmak (feladat, erőforrás, határidő, felelősség)",
+                    "IKT-projektek példái: weboldal, adatbázis, alkalmazás, hálózati terv"
+                ]},
+                { "cim": "Tervezési szakasz", "tartalom": [
+                    "Projektcél meghatározása és problémafelvetés",
+                    "Követelmény- és igényfelmérés (megrendelő, felhasználó)",
+                    "Feladatlebontás és ütemterv (Gantt-diagram, munkamegosztás)",
+                    "Erőforrás-tervezés: hardver, szoftver, humán erőforrás",
+                    "Dokumentációs sablonok és verziókezelés (pl. Git)"
+                ]},
+                { "cim": "Megvalósítás", "tartalom": [
+                    "Közös munka és kommunikáció (pl. Google Workspace, Teams, Trello)",
+                    "Prototípus vagy működő modell létrehozása",
+                    "Kódolási és fejlesztési irányelvek betartása",
+                    "Folyamatos tesztelés és hibajavítás",
+                    "Forráskód és állományok rendszerezése"
+                ]},
+                { "cim": "Dokumentáció és bemutatás", "tartalom": [
+                    "Fejlesztési napló vezetése (naprakész feladatkövetés)",
+                    "Felhasználói kézikönyv és technikai dokumentáció készítése",
+                    "Projekt összefoglaló és bemutató (prezentáció)",
+                    "Eredmények értékelése, visszajelzések feldolgozása",
+                    "Projektarchiválás és verziókezelés zárása"
+                ]},
+                { "cim": "Csapatmunka és soft skillek", "tartalom": [
+                    "Kommunikációs és együttműködési technikák",
+                    "Időgazdálkodás és feladatprioritás",
+                    "Konfliktuskezelés és problémamegoldás",
+                    "Önálló és felelős munkavégzés",
+                    "Prezentációs készség és vizuális kommunikáció"
+                ]},
+                { "cim": "Értékelés és önreflexió", "tartalom": [
+                    "A projektértékelés szempontjai (minőség, határidő, együttműködés)",
+                    "Önértékelés és csapattagok értékelése",
+                    "A hibák és hiányosságok elemzése",
+                    "Fejlesztési javaslatok megfogalmazása jövőbeli projektekhez"
+                ]},
+                { "cim": "Digitális eszközök és biztonság", "tartalom": [
+                    "Felhőalapú együttműködés (Google Drive, OneDrive, GitHub)",
+                    "Adatvédelem és információbiztonság projektkörnyezetben",
+                    "Fájlformátumok és kompatibilitás kezelése",
+                    "Szerzői jogi ismeretek, forrásmegjelölés",
+                    "Biztonsági mentés és adatvisszaállítás fontossága"
+                ]}
+            ]
+        }
+
+    },
+    {"id": "szakmai_angol_szoft",
+        "nev": "Szakmai angol",
+        "tanar": "Bencze Balázs",
+        "fejlecNev": "Szakmai angol szoft",
+        "img": "img/info.svg",
+        "tananyag": {
+            "cim": "11. osztályos szakmai angol – Informatika és távközlés ágazat",
+            "tartalom": [
+                { "cim": "Alapvető informatikai kifejezések", "tartalom": [
+                    "Computer, hardware, software, peripheral devices",
+                    "Input devices, output devices, storage devices",
+                    "Operating system, application software, utility programs",
+                    "Network, server, client, protocol",
+                    "Database, table, field, record, query"
+                ]},
+                { "cim": "Programozás és webfejlesztés", "tartalom": [
+                    "Programming language, code, script, compiler, interpreter",
+                    "Variable, data type, function, loop, condition",
+                    "HTML, CSS, JavaScript, front-end, back-end",
+                    "Web page, web application, server-side, client-side",
+                    "API, REST, JSON, request, response"
+                ]},
+                { "cim": "Hálózat és távközlés", "tartalom": [
+                    "Local Area Network (LAN), Wide Area Network (WAN)",
+                    "Router, switch, firewall, IP address, DNS",
+                    "Transmission media: copper, fiber, wireless",
+                    "TCP/IP model, protocols (HTTP, HTTPS, FTP, SMTP)",
+                    "Bandwidth, latency, throughput"
+                ]},
+                { "cim": "Adatbiztonság és adatkezelés", "tartalom": [
+                    "Encryption, decryption, firewall, antivirus",
+                    "Authentication, authorization, access control",
+                    "Backup, recovery, data integrity, data loss prevention",
+                    "GDPR, data protection, privacy policies",
+                    "Cybersecurity threats: malware, phishing, ransomware"
+                ]},
+                { "cim": "Projektmunka és csapatmunka", "tartalom": [
+                    "Project planning, milestones, deliverables",
+                    "Team roles, task assignment, collaboration tools",
+                    "Version control (Git, GitHub), documentation",
+                    "Testing, debugging, quality assurance",
+                    "Presentation and reporting in English"
+                ]},
+                { "cim": "Szakmai kommunikáció", "tartalom": [
+                    "Technical manuals, user guides, documentation",
+                    "Email etiquette, professional communication",
+                    "Reading technical specifications and datasheets",
+                    "Writing reports and summaries",
+                    "Presentation skills and meetings vocabulary"
+                ]}
+            ]
+        }
+
+    },
+    {"id": "tesi",
+        "nev": "Testnevelés",
+        "tanar": "Dancsa Bálint",
+        "fejlecNev": "Testnevelés",
+        "img": "img/tesi.svg",
+        "tananyag": {
+            "cim": "11. osztályos TESI (Testnevelés) - rövid összefoglaló",
+            "tartalom": [
+                { "cim": "Általános fizikai képességek", "tartalom": [
+                    "Állóképesség fejlesztése (futás, úszás, kerékpározás)",
+                    "Erőfejlesztés (súlyzós és saját testsúlyos gyakorlatok)",
+                    "Gyorsaság, hajlékonyság, koordináció",
+                    "Bemelegítés és levezetés fontossága",
+                    "Testtartás és ergonomia mindennapokban"
+                ]},
+                { "cim": "Labdajátékok", "tartalom": [
+                    "Kosárlabda: alaptechnika, szabályok, csapatjáték",
+                    "Labdarúgás: technikai elemek, taktika, fair play",
+                    "Röplabda és kézilabda alapjai",
+                    "Csapatszellem és együttműködés fejlesztése",
+                    "Versenyek és mérkőzések szabályai"
+                ]},
+                { "cim": "Atlétikai gyakorlatok", "tartalom": [
+                    "Futószámok: sprint, középtáv, hosszútáv",
+                    "Ugrások: távol, magas, hármasugrás",
+                    "Dobások: gerely, súly, diszkosz",
+                    "Technikai és koordinációs fejlesztés",
+                    "Versenyek lebonyolítása és értékelése"
+                ]},
+                { "cim": "Torna és kondicionáló gyakorlatok", "tartalom": [
+                    "Alapvető gimnasztikai gyakorlatok",
+                    "Saját testsúlyos edzés és erősítő gyakorlatok",
+                    "Rugalmasság és nyújtás",
+                    "Egyensúly és koordináció fejlesztése",
+                    "Edzésnapló és fejlődés nyomon követése"
+                ]},
+                { "cim": "Egészségtan és életmód", "tartalom": [
+                    "Helyes táplálkozás és hidratáció",
+                    "Alvás és regeneráció szerepe",
+                    "Mentális egészség és stresszkezelés",
+                    "Prevenciós gyakorlatok és sérülésmegelőzés",
+                    "Egészséges életmód kialakítása és fenntartása"
+                ]},
+                { "cim": "Önvédelem és küzdősport alapok", "tartalom": [
+                    "Alapvető önvédelmi technikák",
+                    "Fegyelmezett mozgás és reflexfejlesztés",
+                    "Balesetmegelőzés és biztonságos gyakorlás",
+                    "Küzdősportok alapmozdulatai (pl. judo, karate)",
+                    "Csapatszellem és sportszerűség fejlesztése"
+                ]}
+            ]
+        }
+
+    },
+    {"id": "osztalyfonoki",
+        "nev": "Osztályfőnöki",
+        "tanar": "Németh Ildikó",
+        "fejlecNev": "Osztályfőnöki",
+        "img": "img/ofo.svg",
+        "tananyag": {
+            "cim": "11. osztályos osztályfőnöki - rövid összefoglaló",
+            "tartalom": [
+                { "cim": "Önismeret és személyiségfejlesztés", "tartalom": [
+                    "Saját képességek és érdeklődési kör feltérképezése",
+                    "Érzelmi intelligencia fejlesztése",
+                    "Konfliktuskezelés és kommunikációs készségek",
+                    "Önállóság, felelősségvállalás, döntéshozatal",
+                    "Önreflexió és célkitűzés"
+                ]},
+                { "cim": "Tanulási technikák és motiváció", "tartalom": [
+                    "Hatékony tanulási módszerek (jegyzetelés, memorizálás, időbeosztás)",
+                    "Motivációs stratégiák, önfegyelem",
+                    "Célkitűzés és önellenőrzés",
+                    "Stresszkezelés vizsgák és feladatok előtt",
+                    "Tanulási környezet optimalizálása"
+                ]},
+                { "cim": "Pályaorientáció és továbbtanulás", "tartalom": [
+                    "Iskolai továbbtanulási lehetőségek áttekintése",
+                    "Szakmaválasztás, érdeklődés és képességek összekapcsolása",
+                    "Önéletrajz, motivációs levél készítése",
+                    "Interjú- és kommunikációs készségek fejlesztése",
+                    "Nyílt napok, szakmai programok, mentorálás"
+                ]},
+                { "cim": "Szociális kapcsolatok és közösség", "tartalom": [
+                    "Osztályközösség szerepe és normák",
+                    "Konfliktusok kezelése, mediáció",
+                    "Csapatmunka, együttműködés fejlesztése",
+                    "Társas kapcsolatok és kommunikációs stílusok",
+                    "Iskolai és közösségi rendezvények szervezése"
+                ]},
+                { "cim": "Életvezetési ismeretek", "tartalom": [
+                    "Pénzügyi tudatosság és költségvetés tervezés",
+                    "Időgazdálkodás, prioritások felállítása",
+                    "Egészséges életmód és prevenció",
+                    "Digitális kultúra és biztonságos internethasználat",
+                    "Önállóság a mindennapi életben"
+                ]},
+                { "cim": "Jogismeret és állampolgári ismeretek", "tartalom": [
+                    "Alapvető jogok és kötelességek",
+                    "Iskolai szabályok és házirend",
+                    "Állampolgári jogok és demokratikus részvétel",
+                    "Közösségi felelősség és környezetvédelem",
+                    "Etikai normák és döntéshozatal mindennapi helyzetekben"
+                ]}
+            ]
+        }
+
+    },
+    {"id": "szakmai_angol_hal",
+        "nev": "Szakmai angol",
+        "tanar": "Kiss Klára",
+        "fejlecNev": "Szakmai angol hál",
+        "img": "",
+        "tananyag": {
+            "cim": "11. osztályos szakmai angol – Informatika és távközlés ágazat",
+            "tartalom": [
+                { "cim": "Alapvető informatikai kifejezések", "tartalom": [
+                    "Computer, hardware, software, peripheral devices",
+                    "Input devices, output devices, storage devices",
+                    "Operating system, application software, utility programs",
+                    "Network, server, client, protocol",
+                    "Database, table, field, record, query"
+                ]},
+                { "cim": "Programozás és webfejlesztés", "tartalom": [
+                    "Programming language, code, script, compiler, interpreter",
+                    "Variable, data type, function, loop, condition",
+                    "HTML, CSS, JavaScript, front-end, back-end",
+                    "Web page, web application, server-side, client-side",
+                    "API, REST, JSON, request, response"
+                ]},
+                { "cim": "Hálózat és távközlés", "tartalom": [
+                    "Local Area Network (LAN), Wide Area Network (WAN)",
+                    "Router, switch, firewall, IP address, DNS",
+                    "Transmission media: copper, fiber, wireless",
+                    "TCP/IP model, protocols (HTTP, HTTPS, FTP, SMTP)",
+                    "Bandwidth, latency, throughput"
+                ]},
+                { "cim": "Adatbiztonság és adatkezelés", "tartalom": [
+                    "Encryption, decryption, firewall, antivirus",
+                    "Authentication, authorization, access control",
+                    "Backup, recovery, data integrity, data loss prevention",
+                    "GDPR, data protection, privacy policies",
+                    "Cybersecurity threats: malware, phishing, ransomware"
+                ]},
+                { "cim": "Projektmunka és csapatmunka", "tartalom": [
+                    "Project planning, milestones, deliverables",
+                    "Team roles, task assignment, collaboration tools",
+                    "Version control (Git, GitHub), documentation",
+                    "Testing, debugging, quality assurance",
+                    "Presentation and reporting in English"
+                ]},
+                { "cim": "Szakmai kommunikáció", "tartalom": [
+                    "Technical manuals, user guides, documentation",
+                    "Email etiquette, professional communication",
+                    "Reading technical specifications and datasheets",
+                    "Writing reports and summaries",
+                    "Presentation skills and meetings vocabulary"
+                ]}
+            ]
+        }
+    },
+    {"id": "ikt_projektmunka_szoft",
+        "nev": "IKT projektmunka",
+        "tanar": "Taskovics Péter",
+        "fejlecNev": "IKT projektmunka szoft",
+        "img": "img/info.svg",
+        "tananyag": {
+            "cim": "11. osztályos IKT projektmunka - szóftverfejlesztés (Informatika és távközlés ágazat)",
+            "tartalom": [
+                { "cim": "Projektmunka alapjai", "tartalom": [
+                    "A projekt fogalma, célja és jellemzői a szoftverfejlesztésben",
+                    "Projektfázisok: tervezés, megvalósítás, tesztelés, lezárás",
+                    "Csoportmunka szerepe a szoftverprojektekben",
+                    "Projektmenedzsment alapfogalmak: feladat, határidő, felelősség, erőforrás",
+                    "Szoftverprojektek példái: alkalmazás, weboldal, játék, mobil app"
+                ]},
+                { "cim": "Tervezési szakasz", "tartalom": [
+                    "Projektcél és követelmények meghatározása",
+                    "Feladatlebontás és ütemterv készítése (pl. Gantt-diagram)",
+                    "Adat- és rendszertervezés (ER-diagram, UML-diagram)",
+                    "Fejlesztési eszközök és technológiák kiválasztása",
+                    "Verziókezelés (pl. Git) és dokumentáció tervezése"
+                ]},
+                { "cim": "Megvalósítás", "tartalom": [
+                    "Kódolás, programozás és modulok fejlesztése",
+                    "Algoritmusok és logikai folyamatok implementálása",
+                    "Frontend és backend fejlesztés integrálása",
+                    "Folyamatos tesztelés, hibajavítás és optimalizálás",
+                    "Forráskód és projektfájlok rendszerezése"
+                ]},
+                { "cim": "Tesztelés és hibakezelés", "tartalom": [
+                    "Egység- és integrációs tesztek készítése",
+                    "Hibakeresés és debug technikák",
+                    "Felhasználói tesztelés és visszajelzések kezelése",
+                    "Tesztelési dokumentáció készítése",
+                    "A szoftver minőségének ellenőrzése"
+                ]},
+                { "cim": "Dokumentáció és bemutatás", "tartalom": [
+                    "Technikai dokumentáció és felhasználói kézikönyv készítése",
+                    "Projektösszefoglaló és prezentáció elkészítése",
+                    "Eredmények bemutatása és értékelése",
+                    "Önreflexió a projektmunka folyamatáról",
+                    "Projektarchiválás és verziók lezárása"
+                ]},
+                { "cim": "Csapatmunka és soft skillek", "tartalom": [
+                    "Kommunikáció és együttműködés a csapaton belül",
+                    "Időgazdálkodás, feladatprioritások",
+                    "Konfliktuskezelés és problémamegoldás",
+                    "Prezentációs készség fejlesztése",
+                    "Önálló és felelős munkavégzés"
+                ]},
+                { "cim": "Digitális eszközök és biztonság", "tartalom": [
+                    "Felhőalapú együttműködés (pl. GitHub, Google Drive)",
+                    "Adatvédelem és információbiztonság projektkörnyezetben",
+                    "Fájlformátumok és kompatibilitás kezelése",
+                    "Szerzői jog és forrásmegjelölés",
+                    "Biztonsági mentés és adatvisszaállítás fontossága"
+                ]}
+            ]
+        }
+
+    },
+    {"id": "halozati_ismeretek",
+        "nev": "Hálózati ismeretek",
+        "tanar": "Varga József",
+        "fejlecNev": "Hálózati ismeretek",
+        "img": "img/info.svg",
+        "tananyag": {
+            "cim": "11. osztályos Hálózati ismeretek – rövid összefoglaló",
+            "tartalom": [
+                { "cim": "Hálózati alapfogalmak", "tartalom": [
+                    "Hálózat fogalma és célja",
+                    "Hálózati topológiák: csillag, gyűrű, busz, fa, hibrid",
+                    "Hálózati eszközök: hub, switch, router, access point",
+                    "LAN, MAN, WAN fogalma és jellemzői",
+                    "Kliens-szerver és peer-to-peer hálózatok összehasonlítása"
+                ]},
+                { "cim": "Hálózati rétegek és modellek", "tartalom": [
+                    "OSI modell 7 rétege és azok feladatai",
+                    "TCP/IP modell és kapcsolata az OSI modellel",
+                    "Protokoll fogalma és szerepe a kommunikációban",
+                    "Adatátviteli egységek (bit, keret, csomag, szegmens)",
+                    "Címzési módok és útvonalválasztás alapjai"
+                ]},
+                { "cim": "IP címzés és alhálózatok", "tartalom": [
+                    "IPv4 és IPv6 felépítése",
+                    "Publikus és privát IP címek",
+                    "Subnet mask és alhálózatok számítása",
+                    "Gateway és DNS szerepe",
+                    "Statikus és dinamikus IP kiosztás (DHCP)"
+                ]},
+                { "cim": "Hálózati eszközök beállítása", "tartalom": [
+                    "Router és switch alapbeállítások",
+                    "IP-cím konfigurálása kézzel és DHCP-vel",
+                    "Hálózati kapcsolat létrehozása (kábel és Wi-Fi)",
+                    "Ping és tracert parancsok használata",
+                    "Hálózati hibák diagnosztizálása"
+                ]},
+                { "cim": "Vezeték nélküli hálózatok", "tartalom": [
+                    "Wi-Fi szabványok (802.11a/b/g/n/ac/ax)",
+                    "SSID, jelszó és titkosítási típusok (WEP, WPA, WPA2, WPA3)",
+                    "Hotspot létrehozása és konfigurálása",
+                    "Jelerősség és interferencia",
+                    "Biztonsági kockázatok és védekezés"
+                ]},
+                { "cim": "Hálózati szolgáltatások", "tartalom": [
+                    "DNS, DHCP, FTP, HTTP, HTTPS, SMTP, POP3, IMAP",
+                    "Fájl- és nyomtatómegosztás hálózatban",
+                    "Távoli elérés (RDP, SSH, VPN)",
+                    "Web- és e-mail szerver alapelvei",
+                    "Proxy és tűzfal szerepe"
+                ]},
+                { "cim": "Hálózati biztonság és karbantartás", "tartalom": [
+                    "Alapvető hálózati fenyegetések (vírusok, adathalászat, DoS)",
+                    "Tűzfalak és biztonsági szabályok beállítása",
+                    "Erős jelszavak és kétlépcsős hitelesítés",
+                    "Hálózati forgalom figyelése és naplózása",
+                    "Biztonsági mentés és frissítések szerepe"
+                ]},
+                { "cim": "Gyakorlati hálózatépítés", "tartalom": [
+                    "Kis helyi hálózat megtervezése és megvalósítása",
+                    "Eszközök összekapcsolása és IP-címek kiosztása",
+                    "Router konfigurálása (webes és CLI felületen)",
+                    "Tesztelés és hibajavítás lépései",
+                    "Dokumentáció készítése a hálózatról"
+                ]}
+            ]
+        }
+
+    },
+    {"id": "asztali_alkalmazas_fejlesztes",
+        "nev": "Asztali alkalmazások fejlesztése",
+        "tanar": "Posgay Erzsébet",
+        "fejlecNev": "Asztali alkalmazások fejlesztése",
+        "img": "img/info.svg",
+        "tananyag": {
+            "cim": "11. osztályos Asztali alkalmazások fejlesztése – rövid összefoglaló",
+            "tartalom": [
+                { "cim": "Alkalmazásfejlesztés alapjai", "tartalom": [
+                    "Asztali alkalmazások jellemzői és felépítése",
+                    "Fejlesztési környezetek: Visual Studio, PyCharm, NetBeans stb.",
+                    "Programozási nyelvek: C#, Java, Python, stb.",
+                    "Alkalmazás életciklusa: tervezés, fejlesztés, tesztelés, karbantartás",
+                    "Felhasználói igények és funkcionális követelmények elemzése"
+                ]},
+                { "cim": "Felhasználói felület (GUI) fejlesztése", "tartalom": [
+                    "Grafikus felhasználói felület elemei (gomb, címke, menü, űrlap)",
+                    "Elrendezések és komponenskezelés",
+                    "Eseményvezérelt programozás alapjai",
+                    "Űrlapok közti adatátadás és navigáció",
+                    "Reszponzív és felhasználóbarát felületek tervezése"
+                ]},
+                { "cim": "Adatkezelés és fájlműveletek", "tartalom": [
+                    "Fájlbeolvasás és -írás (szöveg, CSV, JSON, XML)",
+                    "Adatok validálása és hibakezelés",
+                    "Egyszerű adatbázis-kapcsolat (pl. SQLite, MySQL)",
+                    "CRUD műveletek megvalósítása alkalmazásból",
+                    "Adatmodellek és adatkapcsolatok kezelése"
+                ]},
+                { "cim": "Objektumorientált programozás az alkalmazásokban", "tartalom": [
+                    "Osztályok, objektumok, metódusok és tulajdonságok",
+                    "Öröklődés, polimorfizmus és enkapszuláció",
+                    "Osztálydiagram készítése (UML)",
+                    "OOP elvek alkalmazása a GUI-ban és logikában",
+                    "Kódszervezés és moduláris fejlesztés"
+                ]},
+                { "cim": "Adatbázis-kezelés integrálása", "tartalom": [
+                    "Adatbázis-tervezés alapjai",
+                    "Kapcsolat létrehozása az adatbázissal",
+                    "Adatok lekérdezése SQL segítségével",
+                    "Paraméterezett lekérdezések és biztonságos adatkezelés",
+                    "Adatok megjelenítése a felhasználói felületen"
+                ]},
+                { "cim": "Hibakezelés és tesztelés", "tartalom": [
+                    "Try-catch szerkezet és kivételek kezelése",
+                    "Bemeneti adatok ellenőrzése",
+                    "Egységtesztek és manuális tesztelés",
+                    "Debug eszközök használata a fejlesztőkörnyezetben",
+                    "Felhasználói hibák és visszajelzések kezelése"
+                ]},
+                { "cim": "Telepítés és verziókezelés", "tartalom": [
+                    "Telepítőcsomagok készítése (pl. .exe, .msi)",
+                    "Python esetén PyInstaller, Java esetén JAR fájl",
+                    "Verziókezelés (Git, GitHub)",
+                    "Kódmentés, dokumentálás és frissítések kezelése",
+                    "Szoftverkarbantartás és hibajegyek kezelése"
+                ]},
+                { "cim": "Projektmunka és dokumentáció", "tartalom": [
+                    "Saját alkalmazás tervezése és fejlesztése",
+                    "Felhasználói útmutató készítése",
+                    "Fejlesztési napló és verziók dokumentálása",
+                    "Projekt bemutatása és értékelése",
+                    "Csapatmunka és szerepkörök megosztása"
+                ]}
+            ]
+        }
+
+    },
+    {"id": "adatbazis_kezeles_szoft",
+        "nev": "Adatbázis-kezelés",
+        "tanar": "Posgay Erzsébet",
+        "fejlecNev": "Adatbázis-kezelés szoft",
+        "img": "img/info.svg",
+        "tananyag": {
+            "cim": "11. osztályos Adatbázis-kezelés – Szoftverfejlesztés szakirány",
+            "tartalom": [
+                { "cim": "Adatbázisok alapjai", "tartalom": [
+                    "Az adatbázis fogalma, célja és előnyei",
+                    "Adatok, rekordok, mezők, táblák és kulcsok (elsődleges, idegen)",
+                    "Relációs adatbázisok működése és felépítése",
+                    "Kapcsolatok típusai: 1:1, 1:N, N:M",
+                    "Normalizálás alapjai (1NF, 2NF, 3NF) és redundancia csökkentése"
+                ]},
+                { "cim": "Adatbázis-tervezés és modellezés", "tartalom": [
+                    "Követelmények elemzése és adatmodell készítése",
+                    "ER (Entity-Relationship) diagram készítése",
+                    "Táblák, mezők és kulcsok megtervezése",
+                    "Adatbázis-terv konvertálása SQL sémává",
+                    "Adatbázis-logikai és fizikai szintjei"
+                ]},
+                { "cim": "SQL nyelv alapjai", "tartalom": [
+                    "DDL utasítások: CREATE, ALTER, DROP",
+                    "DML utasítások: SELECT, INSERT, UPDATE, DELETE",
+                    "Adattípusok és mezőkorlátozások (NOT NULL, UNIQUE, CHECK)",
+                    "Szűrés (WHERE), rendezés (ORDER BY) és csoportosítás (GROUP BY)",
+                    "Lekérdezések összekapcsolása: JOIN műveletek (INNER, LEFT, RIGHT)"
+                ]},
+                { "cim": "Adatbázis-kezelés szoftverből", "tartalom": [
+                    "Kapcsolat létrehozása adatbázissal (Python: sqlite3, Java: JDBC, C#: ADO.NET)",
+                    "Lekérdezések futtatása programból",
+                    "Adatok megjelenítése GUI-ban vagy konzolon",
+                    "Adatbevitel és -módosítás felhasználói űrlapon keresztül",
+                    "Paraméterezett lekérdezések és SQL injection elleni védelem"
+                ]},
+                { "cim": "Fejlettebb SQL műveletek", "tartalom": [
+                    "Beágyazott lekérdezések és nézetek (VIEW)",
+                    "Triggerek, tárolt eljárások (Stored Procedures)",
+                    "Indexek és teljesítmény-optimalizálás",
+                    "Adatintegritás és referenciális integritás fenntartása",
+                    "Adatbázis tranzakciók (COMMIT, ROLLBACK)"
+                ]},
+                { "cim": "Adatbázis-vezérelt alkalmazások fejlesztése", "tartalom": [
+                    "Adatbázis integrálása asztali vagy webes alkalmazásba",
+                    "CRUD funkciók (Create, Read, Update, Delete) implementálása",
+                    "Adatok listázása, szűrése és keresése",
+                    "Adatbázis kapcsolat hibakezelése és újracsatlakozás",
+                    "Model-View-Controller (MVC) elv alkalmazása adatkezelésre"
+                ]},
+                { "cim": "Adatbiztonság és karbantartás", "tartalom": [
+                    "Felhasználói jogosultságok és hozzáférés-szabályozás",
+                    "Adatmentés és visszaállítás",
+                    "Titkosítás és jelszóhash-elés (pl. bcrypt)",
+                    "Adatvédelmi irányelvek (GDPR) betartása",
+                    "Adatbázis frissítések és verziókezelés"
+                ]},
+                { "cim": "Projektmunka és dokumentáció", "tartalom": [
+                    "Saját adatbázis-terv készítése és implementálása",
+                    "Felhasználói felület és adatbázis összekötése",
+                    "Dokumentáció készítése: ER-diagram, SQL kód, leírás",
+                    "Tesztelés valós adatokkal",
+                    "Projekt bemutatása és értékelése"
+                ]}
+            ]
+        }
+
+    },
+    {"id": "angol_1",
+        "nev": "Angol",
+        "tanar": "Dr Szőcs Krisztina",
+        "fejlecNev": "Angol 1",
+        "img": "img/angol.svg",
+        "tananyag": {
+            "cim": "11. osztályos angol nyelv – rövid összefoglaló",
+            "tartalom": [
+                { "cim": "Nyelvtan", "tartalom": [
+                    "Igeidők ismétlése és bővítése: Present Perfect Simple vs Continuous, Past Perfect, Future forms (will, going to, present continuous)",
+                    "Feltételes mód (Conditional Sentences Type 0–3, Mixed Conditionals)",
+                    "Passzív szerkezet (Passive Voice) különböző igeidőkben",
+                    "Függő beszéd (Reported Speech) – állítások, kérdések, felszólítások",
+                    "Mellékmondatok: idő-, ok-, cél-, feltételes- és vonatkozó mellékmondatok",
+                    "Gerundium és infinitív használata",
+                    "Modalis segédigék: must, have to, should, might, could, needn’t"
+                ]},
+                { "cim": "Szókincs és témakörök", "tartalom": [
+                    "Család, kapcsolatok, társas élet",
+                    "Egészség és életmód, sport, étkezés",
+                    "Utazás, közlekedés és turizmus",
+                    "Tanulás, iskola, jövőbeli tervek",
+                    "Munka világa: állások, karrier, önéletrajz, interjú",
+                    "Technológia és média",
+                    "Környezetvédelem és fenntarthatóság",
+                    "Kultúra, művészet, szabadidő",
+                    "Társadalmi problémák (pl. szegénység, diszkrimináció, globalizáció)"
+                ]},
+                { "cim": "Kommunikációs készségek", "tartalom": [
+                    "Beszélgetés kezdeményezése és fenntartása",
+                    "Vélemény kifejezése és indoklása",
+                    "Egyetértés és ellentmondás kifejezése",
+                    "Kérések, ajánlatok, javaslatok udvarias formái",
+                    "Leírások: személyek, helyek, események",
+                    "Történetmesélés múlt időben",
+                    "Panaszlevél, e-mail, esszé, cikk írása"
+                ]},
+                { "cim": "Hallott és olvasott szöveg értése", "tartalom": [
+                    "Mindennapi helyzetek szövegeinek értelmezése",
+                    "Fő gondolat és részletek azonosítása",
+                    "Szövegben lévő vélemény, cél, érzelem felismerése",
+                    "Kontekstuális szókincsfejtés",
+                    "Hallás utáni feladatok (dialógusok, hírek, interjúk) gyakorlása"
+                ]},
+                { "cim": "Íráskészség", "tartalom": [
+                    "Formális és informális e-mail írás",
+                    "Történet és leíró szöveg megalkotása",
+                    "Véleménykifejtő és érvelő esszé",
+                    "Cikk vagy bejegyzés írása",
+                    "Nyelvtanilag helyes, összefüggő mondatok és bekezdések alkotása"
+                ]},
+                { "cim": "Beszéd és kiejtés", "tartalom": [
+                    "Szóbeli kommunikáció hétköznapi témákról",
+                    "Helyes kiejtés, hangsúly és intonáció gyakorlása",
+                    "Páros és csoportos beszélgetések (szituációk, viták)",
+                    "Prezentációs készség fejlesztése",
+                    "Vizsgaszituációk gyakorlása (B1–B2 szint)"
+                ]},
+                { "cim": "Kultúra és civilizáció", "tartalom": [
+                    "Anglia, az Egyesült Államok és más angol nyelvű országok kultúrája",
+                    "Nemzeti ünnepek, hagyományok és szokások",
+                    "Oktatási rendszerek és mindennapi élet összehasonlítása",
+                    "Társadalmi viselkedésformák és etikett",
+                    "Kortárs problémák és kulturális sokszínűség"
+                ]}
+            ]
+        }
+
+    },
+    {"id": "angol_2",
+        "nev": "Angol",
+        "tanar": "Balykó Gyöngyvér Barbara",
+        "fejlecNev": "Angol 2",
+        "img": "img/angol.svg",
+        "tananyag": {
+            "cim": "11. osztályos angol nyelv – rövid összefoglaló",
+            "tartalom": [
+                { "cim": "Nyelvtan", "tartalom": [
+                    "Igeidők ismétlése és bővítése: Present Perfect Simple vs Continuous, Past Perfect, Future forms (will, going to, present continuous)",
+                    "Feltételes mód (Conditional Sentences Type 0–3, Mixed Conditionals)",
+                    "Passzív szerkezet (Passive Voice) különböző igeidőkben",
+                    "Függő beszéd (Reported Speech) – állítások, kérdések, felszólítások",
+                    "Mellékmondatok: idő-, ok-, cél-, feltételes- és vonatkozó mellékmondatok",
+                    "Gerundium és infinitív használata",
+                    "Modalis segédigék: must, have to, should, might, could, needn’t"
+                ]},
+                { "cim": "Szókincs és témakörök", "tartalom": [
+                    "Család, kapcsolatok, társas élet",
+                    "Egészség és életmód, sport, étkezés",
+                    "Utazás, közlekedés és turizmus",
+                    "Tanulás, iskola, jövőbeli tervek",
+                    "Munka világa: állások, karrier, önéletrajz, interjú",
+                    "Technológia és média",
+                    "Környezetvédelem és fenntarthatóság",
+                    "Kultúra, művészet, szabadidő",
+                    "Társadalmi problémák (pl. szegénység, diszkrimináció, globalizáció)"
+                ]},
+                { "cim": "Kommunikációs készségek", "tartalom": [
+                    "Beszélgetés kezdeményezése és fenntartása",
+                    "Vélemény kifejezése és indoklása",
+                    "Egyetértés és ellentmondás kifejezése",
+                    "Kérések, ajánlatok, javaslatok udvarias formái",
+                    "Leírások: személyek, helyek, események",
+                    "Történetmesélés múlt időben",
+                    "Panaszlevél, e-mail, esszé, cikk írása"
+                ]},
+                { "cim": "Hallott és olvasott szöveg értése", "tartalom": [
+                    "Mindennapi helyzetek szövegeinek értelmezése",
+                    "Fő gondolat és részletek azonosítása",
+                    "Szövegben lévő vélemény, cél, érzelem felismerése",
+                    "Kontekstuális szókincsfejtés",
+                    "Hallás utáni feladatok (dialógusok, hírek, interjúk) gyakorlása"
+                ]},
+                { "cim": "Íráskészség", "tartalom": [
+                    "Formális és informális e-mail írás",
+                    "Történet és leíró szöveg megalkotása",
+                    "Véleménykifejtő és érvelő esszé",
+                    "Cikk vagy bejegyzés írása",
+                    "Nyelvtanilag helyes, összefüggő mondatok és bekezdések alkotása"
+                ]},
+                { "cim": "Beszéd és kiejtés", "tartalom": [
+                    "Szóbeli kommunikáció hétköznapi témákról",
+                    "Helyes kiejtés, hangsúly és intonáció gyakorlása",
+                    "Páros és csoportos beszélgetések (szituációk, viták)",
+                    "Prezentációs készség fejlesztése",
+                    "Vizsgaszituációk gyakorlása (B1–B2 szint)"
+                ]},
+                { "cim": "Kultúra és civilizáció", "tartalom": [
+                    "Anglia, az Egyesült Államok és más angol nyelvű országok kultúrája",
+                    "Nemzeti ünnepek, hagyományok és szokások",
+                    "Oktatási rendszerek és mindennapi élet összehasonlítása",
+                    "Társadalmi viselkedésformák és etikett",
+                    "Kortárs problémák és kulturális sokszínűség"
+                ]}
+            ]
+        }
+
+    },
+    {"id": "angol_3",
+        "nev": "Angol",
+        "tanar": "Bata Mónika",
+        "fejlecNev": "Angol 3",
+        "img": "img/angol.svg",
+        "tananyag": {
+            "cim": "11. osztályos angol nyelv – rövid összefoglaló",
+            "tartalom": [
+                { "cim": "Nyelvtan", "tartalom": [
+                    "Igeidők ismétlése és bővítése: Present Perfect Simple vs Continuous, Past Perfect, Future forms (will, going to, present continuous)",
+                    "Feltételes mód (Conditional Sentences Type 0–3, Mixed Conditionals)",
+                    "Passzív szerkezet (Passive Voice) különböző igeidőkben",
+                    "Függő beszéd (Reported Speech) – állítások, kérdések, felszólítások",
+                    "Mellékmondatok: idő-, ok-, cél-, feltételes- és vonatkozó mellékmondatok",
+                    "Gerundium és infinitív használata",
+                    "Modalis segédigék: must, have to, should, might, could, needn’t"
+                ]},
+                { "cim": "Szókincs és témakörök", "tartalom": [
+                    "Család, kapcsolatok, társas élet",
+                    "Egészség és életmód, sport, étkezés",
+                    "Utazás, közlekedés és turizmus",
+                    "Tanulás, iskola, jövőbeli tervek",
+                    "Munka világa: állások, karrier, önéletrajz, interjú",
+                    "Technológia és média",
+                    "Környezetvédelem és fenntarthatóság",
+                    "Kultúra, művészet, szabadidő",
+                    "Társadalmi problémák (pl. szegénység, diszkrimináció, globalizáció)"
+                ]},
+                { "cim": "Kommunikációs készségek", "tartalom": [
+                    "Beszélgetés kezdeményezése és fenntartása",
+                    "Vélemény kifejezése és indoklása",
+                    "Egyetértés és ellentmondás kifejezése",
+                    "Kérések, ajánlatok, javaslatok udvarias formái",
+                    "Leírások: személyek, helyek, események",
+                    "Történetmesélés múlt időben",
+                    "Panaszlevél, e-mail, esszé, cikk írása"
+                ]},
+                { "cim": "Hallott és olvasott szöveg értése", "tartalom": [
+                    "Mindennapi helyzetek szövegeinek értelmezése",
+                    "Fő gondolat és részletek azonosítása",
+                    "Szövegben lévő vélemény, cél, érzelem felismerése",
+                    "Kontekstuális szókincsfejtés",
+                    "Hallás utáni feladatok (dialógusok, hírek, interjúk) gyakorlása"
+                ]},
+                { "cim": "Íráskészség", "tartalom": [
+                    "Formális és informális e-mail írás",
+                    "Történet és leíró szöveg megalkotása",
+                    "Véleménykifejtő és érvelő esszé",
+                    "Cikk vagy bejegyzés írása",
+                    "Nyelvtanilag helyes, összefüggő mondatok és bekezdések alkotása"
+                ]},
+                { "cim": "Beszéd és kiejtés", "tartalom": [
+                    "Szóbeli kommunikáció hétköznapi témákról",
+                    "Helyes kiejtés, hangsúly és intonáció gyakorlása",
+                    "Páros és csoportos beszélgetések (szituációk, viták)",
+                    "Prezentációs készség fejlesztése",
+                    "Vizsgaszituációk gyakorlása (B1–B2 szint)"
+                ]},
+                { "cim": "Kultúra és civilizáció", "tartalom": [
+                    "Anglia, az Egyesült Államok és más angol nyelvű országok kultúrája",
+                    "Nemzeti ünnepek, hagyományok és szokások",
+                    "Oktatási rendszerek és mindennapi élet összehasonlítása",
+                    "Társadalmi viselkedésformák és etikett",
+                    "Kortárs problémák és kulturális sokszínűség"
+                ]}
+            ]
+        }
+
+    },
+    {"id": "angol_4",
+        "nev": "Angol",
+        "tanar": "ismeretlen",
+        "fejlecNev": "Angol 4",
+        "img": "img/angol.svg",
+        "tananyag": {
+            "cim": "11. osztályos angol nyelv – rövid összefoglaló",
+            "tartalom": [
+                { "cim": "Nyelvtan", "tartalom": [
+                    "Igeidők ismétlése és bővítése: Present Perfect Simple vs Continuous, Past Perfect, Future forms (will, going to, present continuous)",
+                    "Feltételes mód (Conditional Sentences Type 0–3, Mixed Conditionals)",
+                    "Passzív szerkezet (Passive Voice) különböző igeidőkben",
+                    "Függő beszéd (Reported Speech) – állítások, kérdések, felszólítások",
+                    "Mellékmondatok: idő-, ok-, cél-, feltételes- és vonatkozó mellékmondatok",
+                    "Gerundium és infinitív használata",
+                    "Modalis segédigék: must, have to, should, might, could, needn’t"
+                ]},
+                { "cim": "Szókincs és témakörök", "tartalom": [
+                    "Család, kapcsolatok, társas élet",
+                    "Egészség és életmód, sport, étkezés",
+                    "Utazás, közlekedés és turizmus",
+                    "Tanulás, iskola, jövőbeli tervek",
+                    "Munka világa: állások, karrier, önéletrajz, interjú",
+                    "Technológia és média",
+                    "Környezetvédelem és fenntarthatóság",
+                    "Kultúra, művészet, szabadidő",
+                    "Társadalmi problémák (pl. szegénység, diszkrimináció, globalizáció)"
+                ]},
+                { "cim": "Kommunikációs készségek", "tartalom": [
+                    "Beszélgetés kezdeményezése és fenntartása",
+                    "Vélemény kifejezése és indoklása",
+                    "Egyetértés és ellentmondás kifejezése",
+                    "Kérések, ajánlatok, javaslatok udvarias formái",
+                    "Leírások: személyek, helyek, események",
+                    "Történetmesélés múlt időben",
+                    "Panaszlevél, e-mail, esszé, cikk írása"
+                ]},
+                { "cim": "Hallott és olvasott szöveg értése", "tartalom": [
+                    "Mindennapi helyzetek szövegeinek értelmezése",
+                    "Fő gondolat és részletek azonosítása",
+                    "Szövegben lévő vélemény, cél, érzelem felismerése",
+                    "Kontekstuális szókincsfejtés",
+                    "Hallás utáni feladatok (dialógusok, hírek, interjúk) gyakorlása"
+                ]},
+                { "cim": "Íráskészség", "tartalom": [
+                    "Formális és informális e-mail írás",
+                    "Történet és leíró szöveg megalkotása",
+                    "Véleménykifejtő és érvelő esszé",
+                    "Cikk vagy bejegyzés írása",
+                    "Nyelvtanilag helyes, összefüggő mondatok és bekezdések alkotása"
+                ]},
+                { "cim": "Beszéd és kiejtés", "tartalom": [
+                    "Szóbeli kommunikáció hétköznapi témákról",
+                    "Helyes kiejtés, hangsúly és intonáció gyakorlása",
+                    "Páros és csoportos beszélgetések (szituációk, viták)",
+                    "Prezentációs készség fejlesztése",
+                    "Vizsgaszituációk gyakorlása (B1–B2 szint)"
+                ]},
+                { "cim": "Kultúra és civilizáció", "tartalom": [
+                    "Anglia, az Egyesült Államok és más angol nyelvű országok kultúrája",
+                    "Nemzeti ünnepek, hagyományok és szokások",
+                    "Oktatási rendszerek és mindennapi élet összehasonlítása",
+                    "Társadalmi viselkedésformák és etikett",
+                    "Kortárs problémák és kulturális sokszínűség"
+                ]}
+            ]
+        }
+
+    },
+    {"id": "angol_5",
+        "nev": "Angol",
+        "tanar": "Lakner Mónika",
+        "fejlecNev": "Angol 5",
+        "img": "img/angol.svg",
+        "tananyag": {
+            "cim": "11. osztályos angol nyelv – rövid összefoglaló",
+            "tartalom": [
+                { "cim": "Nyelvtan", "tartalom": [
+                    "Igeidők ismétlése és bővítése: Present Perfect Simple vs Continuous, Past Perfect, Future forms (will, going to, present continuous)",
+                    "Feltételes mód (Conditional Sentences Type 0–3, Mixed Conditionals)",
+                    "Passzív szerkezet (Passive Voice) különböző igeidőkben",
+                    "Függő beszéd (Reported Speech) – állítások, kérdések, felszólítások",
+                    "Mellékmondatok: idő-, ok-, cél-, feltételes- és vonatkozó mellékmondatok",
+                    "Gerundium és infinitív használata",
+                    "Modalis segédigék: must, have to, should, might, could, needn’t"
+                ]},
+                { "cim": "Szókincs és témakörök", "tartalom": [
+                    "Család, kapcsolatok, társas élet",
+                    "Egészség és életmód, sport, étkezés",
+                    "Utazás, közlekedés és turizmus",
+                    "Tanulás, iskola, jövőbeli tervek",
+                    "Munka világa: állások, karrier, önéletrajz, interjú",
+                    "Technológia és média",
+                    "Környezetvédelem és fenntarthatóság",
+                    "Kultúra, művészet, szabadidő",
+                    "Társadalmi problémák (pl. szegénység, diszkrimináció, globalizáció)"
+                ]},
+                { "cim": "Kommunikációs készségek", "tartalom": [
+                    "Beszélgetés kezdeményezése és fenntartása",
+                    "Vélemény kifejezése és indoklása",
+                    "Egyetértés és ellentmondás kifejezése",
+                    "Kérések, ajánlatok, javaslatok udvarias formái",
+                    "Leírások: személyek, helyek, események",
+                    "Történetmesélés múlt időben",
+                    "Panaszlevél, e-mail, esszé, cikk írása"
+                ]},
+                { "cim": "Hallott és olvasott szöveg értése", "tartalom": [
+                    "Mindennapi helyzetek szövegeinek értelmezése",
+                    "Fő gondolat és részletek azonosítása",
+                    "Szövegben lévő vélemény, cél, érzelem felismerése",
+                    "Kontekstuális szókincsfejtés",
+                    "Hallás utáni feladatok (dialógusok, hírek, interjúk) gyakorlása"
+                ]},
+                { "cim": "Íráskészség", "tartalom": [
+                    "Formális és informális e-mail írás",
+                    "Történet és leíró szöveg megalkotása",
+                    "Véleménykifejtő és érvelő esszé",
+                    "Cikk vagy bejegyzés írása",
+                    "Nyelvtanilag helyes, összefüggő mondatok és bekezdések alkotása"
+                ]},
+                { "cim": "Beszéd és kiejtés", "tartalom": [
+                    "Szóbeli kommunikáció hétköznapi témákról",
+                    "Helyes kiejtés, hangsúly és intonáció gyakorlása",
+                    "Páros és csoportos beszélgetések (szituációk, viták)",
+                    "Prezentációs készség fejlesztése",
+                    "Vizsgaszituációk gyakorlása (B1–B2 szint)"
+                ]},
+                { "cim": "Kultúra és civilizáció", "tartalom": [
+                    "Anglia, az Egyesült Államok és más angol nyelvű országok kultúrája",
+                    "Nemzeti ünnepek, hagyományok és szokások",
+                    "Oktatási rendszerek és mindennapi élet összehasonlítása",
+                    "Társadalmi viselkedésformák és etikett",
+                    "Kortárs problémák és kulturális sokszínűség"
+                ]}
+            ]
+        }
+
+    },
+    {"id": "angol_6",
+        "nev": "Angol",
+        "tanar": "Nemes Anikó",
+        "fejlecNev": "Angol 6",
+        "img": "img/angol.svg",
+        "tananyag": {
+            "cim": "11. osztályos angol nyelv – rövid összefoglaló",
+            "tartalom": [
+                { "cim": "Nyelvtan", "tartalom": [
+                    "Igeidők ismétlése és bővítése: Present Perfect Simple vs Continuous, Past Perfect, Future forms (will, going to, present continuous)",
+                    "Feltételes mód (Conditional Sentences Type 0–3, Mixed Conditionals)",
+                    "Passzív szerkezet (Passive Voice) különböző igeidőkben",
+                    "Függő beszéd (Reported Speech) – állítások, kérdések, felszólítások",
+                    "Mellékmondatok: idő-, ok-, cél-, feltételes- és vonatkozó mellékmondatok",
+                    "Gerundium és infinitív használata",
+                    "Modalis segédigék: must, have to, should, might, could, needn’t"
+                ]},
+                { "cim": "Szókincs és témakörök", "tartalom": [
+                    "Család, kapcsolatok, társas élet",
+                    "Egészség és életmód, sport, étkezés",
+                    "Utazás, közlekedés és turizmus",
+                    "Tanulás, iskola, jövőbeli tervek",
+                    "Munka világa: állások, karrier, önéletrajz, interjú",
+                    "Technológia és média",
+                    "Környezetvédelem és fenntarthatóság",
+                    "Kultúra, művészet, szabadidő",
+                    "Társadalmi problémák (pl. szegénység, diszkrimináció, globalizáció)"
+                ]},
+                { "cim": "Kommunikációs készségek", "tartalom": [
+                    "Beszélgetés kezdeményezése és fenntartása",
+                    "Vélemény kifejezése és indoklása",
+                    "Egyetértés és ellentmondás kifejezése",
+                    "Kérések, ajánlatok, javaslatok udvarias formái",
+                    "Leírások: személyek, helyek, események",
+                    "Történetmesélés múlt időben",
+                    "Panaszlevél, e-mail, esszé, cikk írása"
+                ]},
+                { "cim": "Hallott és olvasott szöveg értése", "tartalom": [
+                    "Mindennapi helyzetek szövegeinek értelmezése",
+                    "Fő gondolat és részletek azonosítása",
+                    "Szövegben lévő vélemény, cél, érzelem felismerése",
+                    "Kontekstuális szókincsfejtés",
+                    "Hallás utáni feladatok (dialógusok, hírek, interjúk) gyakorlása"
+                ]},
+                { "cim": "Íráskészség", "tartalom": [
+                    "Formális és informális e-mail írás",
+                    "Történet és leíró szöveg megalkotása",
+                    "Véleménykifejtő és érvelő esszé",
+                    "Cikk vagy bejegyzés írása",
+                    "Nyelvtanilag helyes, összefüggő mondatok és bekezdések alkotása"
+                ]},
+                { "cim": "Beszéd és kiejtés", "tartalom": [
+                    "Szóbeli kommunikáció hétköznapi témákról",
+                    "Helyes kiejtés, hangsúly és intonáció gyakorlása",
+                    "Páros és csoportos beszélgetések (szituációk, viták)",
+                    "Prezentációs készség fejlesztése",
+                    "Vizsgaszituációk gyakorlása (B1–B2 szint)"
+                ]},
+                { "cim": "Kultúra és civilizáció", "tartalom": [
+                    "Anglia, az Egyesült Államok és más angol nyelvű országok kultúrája",
+                    "Nemzeti ünnepek, hagyományok és szokások",
+                    "Oktatási rendszerek és mindennapi élet összehasonlítása",
+                    "Társadalmi viselkedésformák és etikett",
+                    "Kortárs problémák és kulturális sokszínűség"
+                ]}
+            ]
+        }
+
+    },
+    {"id": "angol_7",
+        "nev": "Angol",
+        "tanar": "Kiss Klára",
+        "fejlecNev": "Angol 7",
+        "img": "img/angol.svg",
+        "tananyag": {
+            "cim": "11. osztályos angol nyelv – rövid összefoglaló",
+            "tartalom": [
+                { "cim": "Nyelvtan", "tartalom": [
+                    "Igeidők ismétlése és bővítése: Present Perfect Simple vs Continuous, Past Perfect, Future forms (will, going to, present continuous)",
+                    "Feltételes mód (Conditional Sentences Type 0–3, Mixed Conditionals)",
+                    "Passzív szerkezet (Passive Voice) különböző igeidőkben",
+                    "Függő beszéd (Reported Speech) – állítások, kérdések, felszólítások",
+                    "Mellékmondatok: idő-, ok-, cél-, feltételes- és vonatkozó mellékmondatok",
+                    "Gerundium és infinitív használata",
+                    "Modalis segédigék: must, have to, should, might, could, needn’t"
+                ]},
+                { "cim": "Szókincs és témakörök", "tartalom": [
+                    "Család, kapcsolatok, társas élet",
+                    "Egészség és életmód, sport, étkezés",
+                    "Utazás, közlekedés és turizmus",
+                    "Tanulás, iskola, jövőbeli tervek",
+                    "Munka világa: állások, karrier, önéletrajz, interjú",
+                    "Technológia és média",
+                    "Környezetvédelem és fenntarthatóság",
+                    "Kultúra, művészet, szabadidő",
+                    "Társadalmi problémák (pl. szegénység, diszkrimináció, globalizáció)"
+                ]},
+                { "cim": "Kommunikációs készségek", "tartalom": [
+                    "Beszélgetés kezdeményezése és fenntartása",
+                    "Vélemény kifejezése és indoklása",
+                    "Egyetértés és ellentmondás kifejezése",
+                    "Kérések, ajánlatok, javaslatok udvarias formái",
+                    "Leírások: személyek, helyek, események",
+                    "Történetmesélés múlt időben",
+                    "Panaszlevél, e-mail, esszé, cikk írása"
+                ]},
+                { "cim": "Hallott és olvasott szöveg értése", "tartalom": [
+                    "Mindennapi helyzetek szövegeinek értelmezése",
+                    "Fő gondolat és részletek azonosítása",
+                    "Szövegben lévő vélemény, cél, érzelem felismerése",
+                    "Kontekstuális szókincsfejtés",
+                    "Hallás utáni feladatok (dialógusok, hírek, interjúk) gyakorlása"
+                ]},
+                { "cim": "Íráskészség", "tartalom": [
+                    "Formális és informális e-mail írás",
+                    "Történet és leíró szöveg megalkotása",
+                    "Véleménykifejtő és érvelő esszé",
+                    "Cikk vagy bejegyzés írása",
+                    "Nyelvtanilag helyes, összefüggő mondatok és bekezdések alkotása"
+                ]},
+                { "cim": "Beszéd és kiejtés", "tartalom": [
+                    "Szóbeli kommunikáció hétköznapi témákról",
+                    "Helyes kiejtés, hangsúly és intonáció gyakorlása",
+                    "Páros és csoportos beszélgetések (szituációk, viták)",
+                    "Prezentációs készség fejlesztése",
+                    "Vizsgaszituációk gyakorlása (B1–B2 szint)"
+                ]},
+                { "cim": "Kultúra és civilizáció", "tartalom": [
+                    "Anglia, az Egyesült Államok és más angol nyelvű országok kultúrája",
+                    "Nemzeti ünnepek, hagyományok és szokások",
+                    "Oktatási rendszerek és mindennapi élet összehasonlítása",
+                    "Társadalmi viselkedésformák és etikett",
+                    "Kortárs problémák és kulturális sokszínűség"
+                ]}
+            ]
+        }
+
+    },
+    {"id": "angol_8",
+        "nev": "Angol",
+        "tanar": "Bencze Balázs",
+        "fejlecNev": "Angol 8",
+        "img": "img/angol.svg",
+        "tananyag": {
+            "cim": "11. osztályos angol nyelv – rövid összefoglaló",
+            "tartalom": [
+                { "cim": "Nyelvtan", "tartalom": [
+                    "Igeidők ismétlése és bővítése: Present Perfect Simple vs Continuous, Past Perfect, Future forms (will, going to, present continuous)",
+                    "Feltételes mód (Conditional Sentences Type 0–3, Mixed Conditionals)",
+                    "Passzív szerkezet (Passive Voice) különböző igeidőkben",
+                    "Függő beszéd (Reported Speech) – állítások, kérdések, felszólítások",
+                    "Mellékmondatok: idő-, ok-, cél-, feltételes- és vonatkozó mellékmondatok",
+                    "Gerundium és infinitív használata",
+                    "Modalis segédigék: must, have to, should, might, could, needn’t"
+                ]},
+                { "cim": "Szókincs és témakörök", "tartalom": [
+                    "Család, kapcsolatok, társas élet",
+                    "Egészség és életmód, sport, étkezés",
+                    "Utazás, közlekedés és turizmus",
+                    "Tanulás, iskola, jövőbeli tervek",
+                    "Munka világa: állások, karrier, önéletrajz, interjú",
+                    "Technológia és média",
+                    "Környezetvédelem és fenntarthatóság",
+                    "Kultúra, művészet, szabadidő",
+                    "Társadalmi problémák (pl. szegénység, diszkrimináció, globalizáció)"
+                ]},
+                { "cim": "Kommunikációs készségek", "tartalom": [
+                    "Beszélgetés kezdeményezése és fenntartása",
+                    "Vélemény kifejezése és indoklása",
+                    "Egyetértés és ellentmondás kifejezése",
+                    "Kérések, ajánlatok, javaslatok udvarias formái",
+                    "Leírások: személyek, helyek, események",
+                    "Történetmesélés múlt időben",
+                    "Panaszlevél, e-mail, esszé, cikk írása"
+                ]},
+                { "cim": "Hallott és olvasott szöveg értése", "tartalom": [
+                    "Mindennapi helyzetek szövegeinek értelmezése",
+                    "Fő gondolat és részletek azonosítása",
+                    "Szövegben lévő vélemény, cél, érzelem felismerése",
+                    "Kontekstuális szókincsfejtés",
+                    "Hallás utáni feladatok (dialógusok, hírek, interjúk) gyakorlása"
+                ]},
+                { "cim": "Íráskészség", "tartalom": [
+                    "Formális és informális e-mail írás",
+                    "Történet és leíró szöveg megalkotása",
+                    "Véleménykifejtő és érvelő esszé",
+                    "Cikk vagy bejegyzés írása",
+                    "Nyelvtanilag helyes, összefüggő mondatok és bekezdések alkotása"
+                ]},
+                { "cim": "Beszéd és kiejtés", "tartalom": [
+                    "Szóbeli kommunikáció hétköznapi témákról",
+                    "Helyes kiejtés, hangsúly és intonáció gyakorlása",
+                    "Páros és csoportos beszélgetések (szituációk, viták)",
+                    "Prezentációs készség fejlesztése",
+                    "Vizsgaszituációk gyakorlása (B1–B2 szint)"
+                ]},
+                { "cim": "Kultúra és civilizáció", "tartalom": [
+                    "Anglia, az Egyesült Államok és más angol nyelvű országok kultúrája",
+                    "Nemzeti ünnepek, hagyományok és szokások",
+                    "Oktatási rendszerek és mindennapi élet összehasonlítása",
+                    "Társadalmi viselkedésformák és etikett",
+                    "Kortárs problémák és kulturális sokszínűség"
+                ]}
+            ]
+        }
+
+    },
+    {"id": "nemet_1",
+        "nev": "Német",
+        "tanar": "Pumpné Bíró Ágnes",
+        "fejlecNev": "Német 1",
+        "img": "img/nemet.svg",
+        "tananyag": {
+            "cim": "11. osztályos Német nyelv – rövid összefoglaló",
+            "tartalom": [
+                { "cim": "Nyelvtan", "tartalom": [
+                    "Igeidők ismétlése: Präsens, Perfekt, Präteritum, Plusquamperfekt, Futur I",
+                    "Módbeli segédigék (können, müssen, dürfen, sollen, wollen, mögen) ragozása és használata",
+                    "Feltételes mód (Konjunktiv II) és udvarias kifejezések",
+                    "Névelők és esetek (Nominativ, Akkusativ, Dativ, Genitiv)",
+                    "Elöljárószók és azok esetei (mit, nach, für, gegen, über stb.)",
+                    "Melléknévragozás különböző névelőkkel",
+                    "Főnévragozás és többes szám képzése",
+                    "Szórend: főmondat, mellékmondat, kérdő és kötőszavas szerkezetek",
+                    "Vonatkozó mellékmondatok (Relativsätze)",
+                    "Függő beszéd (Konjunktiv I – indirekte Rede) alapjai"
+                ]},
+                { "cim": "Szókincs és témakörök", "tartalom": [
+                    "Személyes adatok, család és barátok",
+                    "Mindennapi tevékenységek, szabadidő, hobbik",
+                    "Iskola, tanulás és jövőbeli tervek",
+                    "Munka, szakmák, pályaválasztás",
+                    "Egészség, étkezés és életmód",
+                    "Utazás, közlekedés, városnézés",
+                    "Lakás, ház, környezet, városi élet",
+                    "Vásárlás, szolgáltatások, pénzkezelés",
+                    "Technológia, internet, média",
+                    "Kultúra, ünnepek, hagyományok a német nyelvterületen"
+                ]},
+                { "cim": "Kommunikációs készségek", "tartalom": [
+                    "Bemutatkozás, információkérés és -adás",
+                    "Kérések, ajánlatok, meghívások megfogalmazása",
+                    "Vélemény kifejezése és indoklása",
+                    "Egyetértés és ellentmondás kifejezése",
+                    "Irányok, helyek és időpontok megadása",
+                    "Telefonálás és mindennapi helyzetek gyakorlása",
+                    "Kulturált társalgás és udvariassági formák"
+                ]},
+                { "cim": "Olvasott és hallott szöveg értése", "tartalom": [
+                    "Mindennapi és iskolai szövegek megértése",
+                    "Fő gondolat, részletek és cél azonosítása",
+                    "Ismeretlen szavak megértése szövegkörnyezet alapján",
+                    "Hallott szövegek (párbeszédek, hírek, interjúk) feldolgozása",
+                    "Szövegértési stratégiák fejlesztése (kulcsszavak, előrejelzés, összefoglalás)"
+                ]},
+                { "cim": "Íráskészség", "tartalom": [
+                    "Személyes és hivatalos levelek, e-mailek írása",
+                    "Történet, napló vagy élménybeszámoló írása múlt időben",
+                    "Rövid leírások: személy, hely, esemény",
+                    "Véleménykifejtő szövegek írása",
+                    "Szöveg összefüggő, helyes és változatos megfogalmazása"
+                ]},
+                { "cim": "Beszéd és kiejtés", "tartalom": [
+                    "Mindennapi témákról folytatott párbeszédek",
+                    "Szóbeli interakció gyakorlása (kérdések, válaszok, reagálás)",
+                    "Kiejtés, hangsúly és intonáció gyakorlása",
+                    "Képleírás és rövid prezentációk",
+                    "Vizsgaszituációk gyakorlása (B1 szint felé haladva)"
+                ]},
+                { "cim": "Kultúra és civilizáció", "tartalom": [
+                    "Németország, Ausztria és Svájc alapvető földrajzi és kulturális jellemzői",
+                    "Nemzeti ünnepek és hagyományok",
+                    "Oktatási rendszer és diákélet a német nyelvterületen",
+                    "Mindennapi élet és szokások",
+                    "Közös európai értékek és kulturális sokszínűség"
+                ]}
+            ]
+        }
+
+    },
+    {"id": "nemet_2",
+        "nev": "Német",
+        "tanar": "Debela-Hegyi Éva",
+        "fejlecNev": "Német 2",
+        "img": "img/nemet.svg",
+        "tananyag": {
+            "cim": "11. osztályos Német nyelv – rövid összefoglaló",
+            "tartalom": [
+                { "cim": "Nyelvtan", "tartalom": [
+                    "Igeidők ismétlése: Präsens, Perfekt, Präteritum, Plusquamperfekt, Futur I",
+                    "Módbeli segédigék (können, müssen, dürfen, sollen, wollen, mögen) ragozása és használata",
+                    "Feltételes mód (Konjunktiv II) és udvarias kifejezések",
+                    "Névelők és esetek (Nominativ, Akkusativ, Dativ, Genitiv)",
+                    "Elöljárószók és azok esetei (mit, nach, für, gegen, über stb.)",
+                    "Melléknévragozás különböző névelőkkel",
+                    "Főnévragozás és többes szám képzése",
+                    "Szórend: főmondat, mellékmondat, kérdő és kötőszavas szerkezetek",
+                    "Vonatkozó mellékmondatok (Relativsätze)",
+                    "Függő beszéd (Konjunktiv I – indirekte Rede) alapjai"
+                ]},
+                { "cim": "Szókincs és témakörök", "tartalom": [
+                    "Személyes adatok, család és barátok",
+                    "Mindennapi tevékenységek, szabadidő, hobbik",
+                    "Iskola, tanulás és jövőbeli tervek",
+                    "Munka, szakmák, pályaválasztás",
+                    "Egészség, étkezés és életmód",
+                    "Utazás, közlekedés, városnézés",
+                    "Lakás, ház, környezet, városi élet",
+                    "Vásárlás, szolgáltatások, pénzkezelés",
+                    "Technológia, internet, média",
+                    "Kultúra, ünnepek, hagyományok a német nyelvterületen"
+                ]},
+                { "cim": "Kommunikációs készségek", "tartalom": [
+                    "Bemutatkozás, információkérés és -adás",
+                    "Kérések, ajánlatok, meghívások megfogalmazása",
+                    "Vélemény kifejezése és indoklása",
+                    "Egyetértés és ellentmondás kifejezése",
+                    "Irányok, helyek és időpontok megadása",
+                    "Telefonálás és mindennapi helyzetek gyakorlása",
+                    "Kulturált társalgás és udvariassági formák"
+                ]},
+                { "cim": "Olvasott és hallott szöveg értése", "tartalom": [
+                    "Mindennapi és iskolai szövegek megértése",
+                    "Fő gondolat, részletek és cél azonosítása",
+                    "Ismeretlen szavak megértése szövegkörnyezet alapján",
+                    "Hallott szövegek (párbeszédek, hírek, interjúk) feldolgozása",
+                    "Szövegértési stratégiák fejlesztése (kulcsszavak, előrejelzés, összefoglalás)"
+                ]},
+                { "cim": "Íráskészség", "tartalom": [
+                    "Személyes és hivatalos levelek, e-mailek írása",
+                    "Történet, napló vagy élménybeszámoló írása múlt időben",
+                    "Rövid leírások: személy, hely, esemény",
+                    "Véleménykifejtő szövegek írása",
+                    "Szöveg összefüggő, helyes és változatos megfogalmazása"
+                ]},
+                { "cim": "Beszéd és kiejtés", "tartalom": [
+                    "Mindennapi témákról folytatott párbeszédek",
+                    "Szóbeli interakció gyakorlása (kérdések, válaszok, reagálás)",
+                    "Kiejtés, hangsúly és intonáció gyakorlása",
+                    "Képleírás és rövid prezentációk",
+                    "Vizsgaszituációk gyakorlása (B1 szint felé haladva)"
+                ]},
+                { "cim": "Kultúra és civilizáció", "tartalom": [
+                    "Németország, Ausztria és Svájc alapvető földrajzi és kulturális jellemzői",
+                    "Nemzeti ünnepek és hagyományok",
+                    "Oktatási rendszer és diákélet a német nyelvterületen",
+                    "Mindennapi élet és szokások",
+                    "Közös európai értékek és kulturális sokszínűség"
+                ]}
+            ]
+        }
+
+    },
+    {"id": "",
+        "nev": "",
+        "tanar": "",
+        "fejlecNev": "",
+        "img": "",
         "tananyag": ""
     }
 ]

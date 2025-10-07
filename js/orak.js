@@ -16,6 +16,9 @@ async function oraBetolt() {
         document.getElementById("tantargyNev").innerText = oraNev;
         document.getElementById("aloldalNev").innerText = "ora_nem_talalhato";
         document.title = "ora_nem_talalhato";
+        document.getElementById("tartalom").style.display = "none";
+        document.getElementById("tanar").style.display = "none";
+        document.getElementById("tantargyNev").style.display = "none";
         return;
     }   
     document.getElementById("tantargyNev").innerText = ora.nev;
@@ -26,7 +29,7 @@ async function oraBetolt() {
 
     const oraSzam = urlOra.get("oraSzam"); // pl. ?ora=matek&oraSzam=1
     const oraido = orak[0][`${oraSzam}.ora`];
-    document.getElementById("oraIdo").innerText = oraido;
+    document.getElementById("oraIdo").innerText = "Óra idelye: "+oraido;
     document.title = `${ora.nev} - ${oraSzam}. óra`
 
     const tananyag = ora.tananyag;

@@ -2,8 +2,12 @@
     text-align: center;
     color: white;
     position: absolute;
+<<<<<<< HEAD
     right: 1%;
     top: 15px;
+=======
+    left: 45%;
+>>>>>>> 5ca8e12d68307c8f8f450e391450f37f192cf001
 }
 header{
     background-color: #267DFF;
