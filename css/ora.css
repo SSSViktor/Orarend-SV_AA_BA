@@ -1,0 +1,11 @@
+#kep{
+    width: 30%;
+    position: fixed;
+    left: 35%;
+    top: 40%;
+    animation: kep 3s ease-in-out;
+}
+@keyframes kep{
+    0% {left: 100%;}
+    100% {left: 35%;}
+}

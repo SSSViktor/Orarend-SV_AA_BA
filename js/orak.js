@@ -21,6 +21,7 @@ async function oraBetolt() {
     document.getElementById("tantargyNev").innerText = ora.nev;
     document.getElementById("tanar").innerText = ora.tanar; 
     document.getElementById("aloldalNev").innerText = ora.fejlecNev;
+    document.getElementById("kep").src = ora.img
 
 
     const oraSzam = urlOra.get("oraSzam"); // pl. ?ora=matek&oraSzam=1
