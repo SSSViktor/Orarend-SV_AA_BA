@@ -15,7 +15,7 @@ body, html{
     overflow-x: hidden;
 }
 #tantargyNev{
-    background-color: #8AD3F8;
+    background-color: #1AB3FF;
     margin: 2%;
     border-radius: 15px;
     padding: 5px;
@@ -36,4 +36,10 @@ body, html{
     padding: 15px;
     border-radius: 15px;
     width: 60%;
+}
+body {
+    background-image: url("../img/orabg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
 }
