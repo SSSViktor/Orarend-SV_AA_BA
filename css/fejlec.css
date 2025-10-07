@@ -1,19 +1,28 @@
 #osztaly{
     text-align: center;
     color: white;
-    position: fixed;
-    left: 45%;
+    position: absolute;
+    right: 1%;
+    top: 15px;
 }
 header{
-    background-color: #4891FF;
+    background-color: #267DFF;
     color: white;
     font-size: 200%;
+    height: 70px;
 }
 #fooldal{
+    position: absolute;
     text-decoration: none;
     color: white;
     margin-left: 10px;
+    top: 15px;
 }
 #fooldal:active{
     color: white;
+}
+#evszam{
+    position: absolute;
+    left: 47%;
+    top: 15px;
 }
