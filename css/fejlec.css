@@ -1,7 +1,7 @@
 #osztaly{
     text-align: center;
     color: white;
-    position: fixed;
+    position: absolute;
     left: 45%;
 }
 header{
